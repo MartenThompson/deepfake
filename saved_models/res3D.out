@@ -1,0 +1,30 @@
+Loading 3D data from data/runtime/
+Found 110056 files belonging to 2 classes.
+Found 75040 files belonging to 2 classes.
+Combining frames: train
+25%
+50%
+75%
+100%
+Making tensors: train
+Combining frames: test
+25%
+50%
+75%
+100%
+Making tensors: test
+Complete
+
+Training ResNet 3D
+Epoch 1/5
+108/108 - 13898s - loss: 0.5940 - accuracy: 0.8383
+Epoch 2/5
+108/108 - 14851s - loss: 0.4469 - accuracy: 0.8456
+Epoch 3/5
+108/108 - 14856s - loss: 0.4434 - accuracy: 0.8456
+Epoch 4/5
+108/108 - 14762s - loss: 0.4375 - accuracy: 0.8456
+Epoch 5/5
+108/108 - 14850s - loss: 0.4362 - accuracy: 0.8456
+Testing ResNet 3D
+74/74 - 1307s - loss: 0.4340 - accuracy: 0.8435

@@ -1,0 +1,19 @@
+Anaconda Scientific Python Distribution 2018.12 (Python 3.7): loaded 
+2020-12-05 14:23:57.783842: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2020-12-05 14:23:57.783894: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2020-12-05 14:24:05.189728: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2020-12-05 14:24:05.189781: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2020-12-05 14:24:05.189811: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (node005.cla.umn.edu): /proc/driver/nvidia/version does not exist
+2020-12-05 14:24:05.190271: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-12-05 14:24:05.198580: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2599995000 Hz
+2020-12-05 14:24:05.199200: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f53d9243b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-12-05 14:24:05.199224: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-12-05 14:42:07.414683: W tensorflow/core/framework/cpu_allocator_impl.cc:81] Allocation of 33806745600 exceeds 10% of free system memory.
+WARNING:tensorflow:From /home/thom7058/.conda/envs/dl/lib/python3.7/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2020-12-05 16:27:18.790631: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:tensorflow:From /home/thom7058/.conda/envs/dl/lib/python3.7/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.

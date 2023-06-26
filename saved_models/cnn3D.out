@@ -1,0 +1,30 @@
+Loading 3D data from data/runtime/
+Found 110056 files belonging to 2 classes.
+Found 75040 files belonging to 2 classes.
+Combining frames: train
+25%
+50%
+75%
+100%
+Making tensors: train
+Combining frames: test
+25%
+50%
+75%
+100%
+Making tensors: test
+Complete
+
+Training CNN 3D
+Epoch 1/5
+108/108 - 1026s - loss: 5.8688 - accuracy: 0.7752
+Epoch 2/5
+108/108 - 1021s - loss: 0.4547 - accuracy: 0.8546
+Epoch 3/5
+108/108 - 1029s - loss: 0.4136 - accuracy: 0.8581
+Epoch 4/5
+108/108 - 1034s - loss: 0.3500 - accuracy: 0.8662
+Epoch 5/5
+108/108 - 1030s - loss: 0.2791 - accuracy: 0.8892
+Testing CNN 3D
+74/74 - 169s - loss: 0.6134 - accuracy: 0.8354

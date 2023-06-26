@@ -1,0 +1,17 @@
+Loading 2D data from data/runtime/
+Found 110056 files belonging to 2 classes.
+Found 75040 files belonging to 2 classes.
+Complete
+Training ResNet 2D
+Epoch 1/5
+6879/6879 - 12286s - loss: 0.3970 - accuracy: 0.8653
+Epoch 2/5
+6879/6879 - 9256s - loss: 0.6273 - accuracy: 0.8728
+Epoch 3/5
+6879/6879 - 9270s - loss: 1.5932 - accuracy: 0.8713
+Epoch 4/5
+6879/6879 - 9252s - loss: 2.3813 - accuracy: 0.8754
+Epoch 5/5
+6879/6879 - 9254s - loss: 2.5702 - accuracy: 0.8749
+Testing ResNet 2D
+4690/4690 - 3477s - loss: 1.0388 - accuracy: 0.8648

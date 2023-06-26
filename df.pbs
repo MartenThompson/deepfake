@@ -1,0 +1,14 @@
+#PBS -q batch
+#PBS -l nodes=1:ppn=8
+#PBS -l mem=128gb
+#PBS -l walltime=40:00:00
+#PBS -N res2D_12_15
+#PBS -o res2D_12_15.out
+#PBS -e res2D_12_15.err
+#PBS -m abe
+#PBS -M thom7058@umn.edu
+
+cd $PBS_O_WORKDIR/code/
+module load python/conda/3.7
+source activate dl
+python3 analysis.py
